@@ -7,3 +7,5 @@ edition = "2021"
 
 [dependencies]
 yew = { version = "0.20.0", features = ["csr"] }
+yew-router = "0.17"
+web-sys = { version = "*", features = ["Location", "Window"] }
